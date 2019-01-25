@@ -46,9 +46,9 @@ consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 // Explanation: 
 /*
-  The function nestedFunction is able to access the variable 'internal' because nestedFunction is nested within myFunction. Due to lexical scoping the function has access to all execution environments surrounding it and variables contained within those environments i.e. the execution environment of myFunction and the global execution environment.
+  The function nestedFunction is able to access the variable 'internal' because nestedFunction is nested within myFunction. Due to lexical scoping, the function has access to all lexical scopes surrounding it and variables contained within those scopes i.e. the scope of myFunction and the global scope.
 
-  When the nestedFunction is executed the JavaScript engine will first look for the variable 'internal' within its own (nestedFunction's) execution environment and then move up the scope chain until it finds the variable (or reaches the global environment and still can't find the variable; in which case 'undefined' will be returned).
+  When the nestedFunction is executed the JavaScript engine will first look for the variable 'internal' within its own (nestedFunction's) lexical scope and then move up the scope chain until it finds the variable (or reaches the global scope and still can't find the variable; in which 'ReferenceError: internal is not defined' will be returned').
 */
 
 const external = "I'm outside the function";
