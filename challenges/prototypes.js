@@ -16,6 +16,11 @@ function CuboidMaker(length, width, height) {
   
   Formula for cuboid volume: length * width * height
 */
+CuboidMaker.prototype.volume = function() {
+  const result = this.length * this.width * this.height;
+  console.log(result);
+  return result;
+}
 
 
 /* == Step 3: Surface Area Method ==
