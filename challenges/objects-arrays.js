@@ -17,6 +17,7 @@
 // How much did tyrannosaurus weigh?
 console.log();
 
+
 // What was the diet of a velociraptor?
 console.log();
 
