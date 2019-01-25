@@ -38,7 +38,6 @@ const velociraptor = {
 // How much did tyrannosaurus weigh?
 console.log(tyrannosaurus.weight);
 
-
 // What was the diet of a velociraptor?
 console.log(velociraptor.diet);
 
@@ -146,6 +145,8 @@ console.log(populationTotal);
 /* 
 
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
+
+already arrow functions
 
 */
 
