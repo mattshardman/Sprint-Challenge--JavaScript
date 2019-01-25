@@ -51,7 +51,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Why do we need super() in an extended class?
 
-* to allow an object created from the extended class to access and call functions on its parent object. 
+* to call the constructor of the parent class
 
 ### Git Set up
 
